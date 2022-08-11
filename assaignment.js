@@ -46,7 +46,7 @@ function publicBusFare(people) {
 // console.log(publicBusFare(117));
 // console.log(publicBusFare(235));
 
-// PROBLEM--2------------------------->
+// PROBLEM--2-------------------------> chack best friends
 function isBestFriend(arg1, arg2) {
   if (arg1.name === arg2.friend && arg2.name === arg1.friend) {
     return true;
