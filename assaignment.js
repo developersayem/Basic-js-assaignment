@@ -21,3 +21,15 @@ function isJavaScriptFile(filename) {
     }
 }
 console.log(isJavaScriptFile("main.html"));
+
+//FIND OIL PIRCE
+
+function oilPrice(diesel, petrol, octane) {
+    let dieselPrice = diesel * 114;
+    let petrolPrice = petrol * 130;
+    let octanePrice = octane * 135;
+    let totalPrice = dieselPrice + petrolPrice + octanePrice;
+    return totalPrice;
+}
+
+console.log(oilPrice(10, 1, 1));
