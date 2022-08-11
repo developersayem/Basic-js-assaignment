@@ -1,4 +1,4 @@
-//CONVERT RADIANS TO DEGREES
+// PROBLEM--1 --------------------------> CONVERT RADIANS TO DEGREES
 
 function radianToDegree(radian) {
     let pi = Math.PI;
@@ -7,9 +7,9 @@ function radianToDegree(radian) {
     let deg = parseFloat(degFixed);
     return deg;
 }
-console.log(radianToDegree(102));
+// console.log(radianToDegree(102));
 
-//CAHCK  IS  IT JAVASCRIPT FILLE
+//PROBLEM--2 ------------------------------> CAHCK  IS  IT JAVASCRIPT FILLE
 
 function isJavaScriptFile(filename) {
     let name = filename;
@@ -20,9 +20,9 @@ function isJavaScriptFile(filename) {
         return false;
     }
 }
-console.log(isJavaScriptFile("main.html"));
+// console.log(isJavaScriptFile("main.html"));
 
-//FIND OIL PIRCE
+//PROBLEM--3 ------------------------------> FIND OIL PIRCE
 
 function oilPrice(diesel, petrol, octane) {
     let dieselPrice = diesel * 114;
@@ -32,4 +32,17 @@ function oilPrice(diesel, petrol, octane) {
     return totalPrice;
 }
 
-console.log(oilPrice(10, 1, 1));
+// console.log(oilPrice(10, 1, 1));
+
+//PROBLEM--4 ------------------------------>publicBusFare
+
+function publicBusFare(people) {
+    let leftForMiroBus = people % 50;
+    let leftForPublicBus = leftForMiroBus % 11;
+    let publicBusFare = leftForPublicBus * 250;
+    return publicBusFare;
+}
+// console.log(publicBusFare(117));
+// console.log(publicBusFare(235));
+
+// PROBLEM--2------------------------->
